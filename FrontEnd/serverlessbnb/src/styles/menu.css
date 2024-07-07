@@ -1,0 +1,15 @@
+.Menu{
+    display: flex;
+    flex-direction: column;
+    /* background-color: brown; */
+    padding: 3rem 1rem;
+    width: 50%;
+    }
+    
+.MenuItem{
+    /* background-color: aquamarine; */
+    height: 15%;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: center;
+}

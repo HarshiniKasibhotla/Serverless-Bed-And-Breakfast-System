@@ -1,0 +1,68 @@
+select#feedbacktype {
+    font-size: 18px;
+    margin-bottom: 34px;
+    text-align: inherit;
+    text-size-adjust: auto;
+    width: 105%;
+    border-color: #5032b9;
+    font-family: 'Rajdhani';
+    height: 61px;
+    border-radius: 14px;
+    border: 1px solid #5032b9;
+
+}
+
+
+select#fooditem {
+  font-size: 18px;
+  margin-bottom: 34px;
+  text-align: inherit;
+  text-size-adjust: auto;
+  width: 129%;
+  border-color: #5032b9;
+  font-family: 'Rajdhani';
+  height: 61px;
+  border-radius: 14px;
+}
+
+.userdata1 .inputvalue1 input {
+    height: 172px;
+    width: 104%;
+    outline: none;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    border-radius: 14px;
+    border-color: #5032b9;
+    padding-left: 14px;
+    border: 1px solid #5032b9;
+    border-bottom-width: 2px;
+}
+
+.userdata1 .inputvalue1 label.errorvalues{
+    font-size: 17px;
+    display: block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #ad0d0d;
+  }
+
+  form .buttonContainer12 {
+    height: 43px;
+    margin: 25px 70px;
+    margin-top: 3px;
+    padding: 44px;
+}
+
+.userdata1 .inputvalue1 label{
+    display: block;
+    font-weight: 500;
+    font-size: 21px;
+    
+  
+  }
+  
+  .userdata1 .selectvalue label{
+    display: block;
+    font-weight: 500;
+    font-size: 21px;
+  
+}

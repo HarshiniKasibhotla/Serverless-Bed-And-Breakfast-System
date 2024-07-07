@@ -1,0 +1,58 @@
+select#securityquestion {
+    font-size: 17px;
+    margin-bottom: 9px;
+    text-align: inherit;
+    text-size-adjust: auto;
+    width: 120%;
+    border-color: #5032b9;
+    font-family: 'Rajdhani';
+    height: 61px;
+    border-radius: 14px;
+    border: 1px solid #5032b9;
+}
+.excistingvalue2 {
+    margin-left: 195px;
+    padding-top: 33px;
+    cursor: pointer;
+    padding-left: 44px;
+    width: 105px;
+}
+
+.excistingvalue2 label {
+    margin-left: -16em;
+    font-size: 19px;
+    color: #0a0a0a;
+    margin-right: 5px;
+    padding-left: 65px;
+}
+
+.userdata .selectvalue label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+}
+  
+.button-body1{
+    text-align: center;
+    font: normal normal bold 14px/35px Rajdhani !important;
+    letter-spacing: 2.1px !important;
+    color: #090971 !important;
+    background-color: #F5D200;  
+    margin-left: 35em; 
+    width: 131px;
+    margin-left: 0em;
+    margin-top: -23px;  
+    font-family: 'cursive',sans-serif;
+    padding-bottom: 5px;
+    background-color: #F5D200;
+    border: none;
+    cursor: pointer;
+}
+
+.a {
+    background-color: #21121200;
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+    color: blue;
+}

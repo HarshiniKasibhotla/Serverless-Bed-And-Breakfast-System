@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  height: 100vh;
+  width: 90vw;
+  /* background-color: aqua; */
+  margin: 0 auto;
+}
+
+.bigbutton{
+  background-color: #414c69; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+.bigbutton:hover{
+  background-color: #6f83b9;
+}
+
+.Suggestions{
+  width: 50%;
+padding: 3rem 1rem;
+/* background-color: chocolate; */
+display: flex;
+flex-direction: column;
+}
+
+.Recommendation{
+  height: 40% ;
+  background-color: cadetblue;
+  width: 100%;
+}
+
+@media screen and (max-width: 780px) {
+  .App {
+
+    flex-direction: column;
+
+  }
+
+  .Menu{
+    height: 40%;
+    width: auto;
+    }
+
+    .MenuItem{
+      height: 45%;
+      margin-bottom: 1rem;
+      width: 100%;
+    
+    }
+    
+
+    .Suggestions{
+      height: 100%;
+      width: auto;
+    
+    }
+    .Feedback{
+      height: 40% ;
+
+      }
+    .Recommendation{
+      height: 60% ;
+ 
+    }
+}
+
+

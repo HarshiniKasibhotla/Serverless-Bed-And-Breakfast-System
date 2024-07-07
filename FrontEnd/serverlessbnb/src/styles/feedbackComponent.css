@@ -1,0 +1,35 @@
+.Feedback{
+    height: 40% ;
+    display: block;
+    /* background-color: azure; */
+    width: 100%;
+    padding: 1rem;
+    }
+   
+.FeedbackItem{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: antiquewhite; */
+    margin-bottom: 1rem;
+}
+    
+.FeedbackItem p{
+    font-size: 1.2rem;
+}
+.FeedbackProgress{
+    width: 60%;
+    height: 1.5rem;
+    background-color: #e6e6e6;
+    
+    border-radius: 0rem 1rem 1rem 0rem;
+}
+      
+.FeedbackPercentage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-radius: 0rem 1rem 1rem 0rem;
+    background-color: rgb(74, 220, 110);
+}

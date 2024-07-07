@@ -1,0 +1,81 @@
+.container-box-view {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    height: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 6px;
+    background-color: #ffffff
+}
+
+.centre-box {
+    text-align: left;
+    display: flex;
+    width:410px;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin: 2em;
+    object-fit: contain;
+    background-color: #ffffff;
+    box-shadow: inset 0 0 10px rgb(29 42 120 / 60%);
+}
+
+.titlevalue {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+    padding-top: 16px;
+}
+
+.button-body2 {
+    background-color: #ddd8e2;
+    border: none;
+    color: #36125d;
+    padding: -1px 32px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 1.5rem;
+    border: 1px solid #3f085d;
+    cursor: pointer;
+    padding-bottom: 18px;
+    margin-top: 6px;
+    margin-right: -29px;
+    margin-left: 63px;
+    padding-top: 13px;
+    width: 208px;
+}
+
+.button-body2:hover{
+    background-color: #6f83b9;
+  }
+
+.userdata .inputvalue10 label {
+    display: block;
+    font-weight: 500;
+    font-size: 28px;
+    color: blue;
+}
+.inputStyles {
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid blue;
+    font-weight: 700;
+}
+
+form .userdata .inputvalue19 {
+    margin-bottom: 4px;
+    padding-bottom: 20px;
+}
+
+.userdata .inputvalue19 label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    padding-bottom: 20px;
+}

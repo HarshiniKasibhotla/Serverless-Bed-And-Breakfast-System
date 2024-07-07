@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Service', 'Positive', 'Negative'],
+          ['Food', 10, 10],
+          ['Room', 20, 14],
+          ['Tour', 20, 8]
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Hotel Performance',
+            subtitle: 'Customer polarity, 2022',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart1);
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+          ['Service', 'Number of Orders'],
+          ['Food',     11],
+          ['Room',      2],
+          ['Tour',  2],
+                  ]);
+
+        var options = {
+          title: 'number of reviews given to each service',
+          pieHole: 0.4,
+        };
+
+        var chart1 = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart1.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+    <div id="donutchart" style="width: 900px; height: 500px;"></div>
+    <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+  </div>
+  </body>
+</html>
